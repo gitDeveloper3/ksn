@@ -38,7 +38,7 @@
           <a class="nav-link" href="{{route('login')}}"><i class="fa fa-car fas fa-user-lock fa-2x"></i>Login</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="{{route('logout')}}"><i class="fa fa-car fas fa-user-lock fa-2x"></i>LogOut</a>
+          <a class="nav-link" href="{{ route('logout') }}"><i class="fa fa-car fas fa-user-lock fa-2x"></i>LogOut</a>
         </li>
       </ul>
 

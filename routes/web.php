@@ -55,8 +55,8 @@ Route::get('/dviewtickets',[App\Http\Controllers\department::class,'AllTickets']
 Route::get('/department',[App\Http\Controllers\department::class,'ddashboard'])->name('department');
 Route::get('/logout',[App\Http\Controllers\HomeController::class,'logout'])->name('logout');
 
-Route::get('/', function () {
-    return view('dashboard');
+Route::get('/dashboard', function () {
+    return view('2dashboard');
 })->name('true-home');
 
 Route::get('/department', function () {
